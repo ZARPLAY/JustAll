@@ -1,0 +1,1045 @@
+{
+  "mod_elements": [
+    {
+      "name": "RubyBlock",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/zarplay/thatsjustall/block/RubyBlockBlock.java",
+          "src/main/resources/assets/thats_just_all/models/item/ruby_block.json",
+          "src/main/resources/assets/thats_just_all/blockstates/ruby_block.json",
+          "src/main/resources/data/thats_just_all/loot_tables/blocks/ruby_block.json",
+          "src/main/resources/assets/thats_just_all/models/block/ruby_block.json"
+        ]
+      }
+    },
+    {
+      "name": "Mod",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mod",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "StickOfGoodPriShchielchkiePKM",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stick_of_good_pri_shchielchkie_pkm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/zarplay/thatsjustall/procedures/StickOfGoodPriShchielchkiePKMProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "StickOfGood",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stick_of_good",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thats_just_all/models/item/stick_of_good.json",
+          "src/main/java/net/zarplay/thatsjustall/item/StickOfGoodItem.java"
+        ]
+      }
+    },
+    {
+      "name": "StickOfGoodRechept",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stick_of_good_rechept",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thats_just_all/recipes/stick_of_good_rechept.json"
+        ]
+      }
+    },
+    {
+      "name": "Test",
+      "type": "gamerule",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      }
+    },
+    {
+      "name": "TestRuleProchesdtrr",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_rule_prochesdtrr",
+      "metadata": {
+        "files": [
+          "src/main/java/net/zarplay/thatsjustall/procedures/TestRuleProchesdtrrProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Hwhehehe",
+      "type": "musicdisc",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hwhehehe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/zarplay/thatsjustall/item/HwheheheItem.java",
+          "src/main/resources/assets/thats_just_all/models/item/hwhehehe.json"
+        ]
+      }
+    },
+    {
+      "name": "BronyaBoga",
+      "type": "armor",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bronya_boga",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thats_just_all/models/item/bronya_boga_chestplate.json",
+          "src/main/java/net/zarplay/thatsjustall/item/BronyaBogaItem.java",
+          "src/main/resources/assets/thats_just_all/models/item/bronya_boga_helmet.json",
+          "src/main/resources/assets/thats_just_all/models/item/bronya_boga_leggings.json",
+          "src/main/resources/assets/thats_just_all/models/item/bronya_boga_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "Bmwrington",
+      "type": "musicdisc",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bmwrington",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thats_just_all/models/item/bmwrington.json",
+          "src/main/java/net/zarplay/thatsjustall/item/BmwringtonItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Ale",
+      "type": "dimension",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ale",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thats_just_all/models/item/ale.json",
+          "src/main/java/net/zarplay/thatsjustall/world/dimension/AleDimension.java",
+          "src/main/java/net/zarplay/thatsjustall/world/teleporter/AleTeleporter.java",
+          "src/main/java/net/zarplay/thatsjustall/world/teleporter/AlePortalShape.java",
+          "src/main/java/net/zarplay/thatsjustall/item/AleItem.java",
+          "src/main/resources/assets/thats_just_all/models/block/ale_portal_ew.json",
+          "src/main/resources/data/thats_just_all/dimension_type/ale.json",
+          "src/main/resources/data/thats_just_all/dimension/ale.json",
+          "src/main/resources/assets/thats_just_all/models/block/ale_portal_ns.json",
+          "src/main/java/net/zarplay/thatsjustall/block/AlePortalBlock.java",
+          "src/main/resources/assets/thats_just_all/blockstates/ale_portal.json"
+        ]
+      }
+    },
+    {
+      "name": "Gm1",
+      "type": "command",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gm_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/zarplay/thatsjustall/command/Gm1Command.java"
+        ]
+      }
+    },
+    {
+      "name": "ZpblockPriObnovlieniiTika",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zpblock_pri_obnovlienii_tika",
+      "metadata": {
+        "files": [
+          "src/main/java/net/zarplay/thatsjustall/procedures/ZpblockPriObnovlieniiTikaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Zpblock",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zpblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thats_just_all/models/item/zpblock.json",
+          "src/main/resources/data/thats_just_all/loot_tables/blocks/zpblock.json",
+          "src/main/java/net/zarplay/thatsjustall/block/ZpblockBlock.java",
+          "src/main/resources/assets/thats_just_all/models/block/zpblock.json",
+          "src/main/resources/assets/thats_just_all/blockstates/zpblock.json"
+        ]
+      }
+    },
+    {
+      "name": "VklGm1",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vkl_gm_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/zarplay/thatsjustall/procedures/VklGm1Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gamemode1",
+      "type": "keybind",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gamemode_1",
+      "metadata": {
+        "files": [
+          "src/main/java/net/zarplay/thatsjustall/network/Gamemode1Message.java"
+        ]
+      }
+    },
+    {
+      "name": "Swordofthegoood",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordofthegoood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/zarplay/thatsjustall/item/SwordofthegooodItem.java",
+          "src/main/resources/assets/thats_just_all/models/item/swordofthegoood.json"
+        ]
+      }
+    },
+    {
+      "name": "Swordofthegoodtargoveth",
+      "type": "villagertrade",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swordofthegoodtargoveth",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Opasnopravilo",
+      "type": "gamerule",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "danger",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      }
+    },
+    {
+      "name": "Dangerprochedura",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dangerprochedura",
+      "metadata": {
+        "files": [
+          "src/main/java/net/zarplay/thatsjustall/procedures/DangerprocheduraProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dirtpolyblock",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirtpolyblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thats_just_all/blockstates/dirtpolyblock.json",
+          "src/main/java/net/zarplay/thatsjustall/block/DirtpolyblockBlock.java",
+          "src/main/resources/assets/thats_just_all/models/item/dirtpolyblock.json",
+          "src/main/resources/assets/thats_just_all/models/block/dirtpolyblock_top.json",
+          "src/main/resources/assets/thats_just_all/models/block/dirtpolyblock_full.json",
+          "src/main/resources/assets/thats_just_all/models/block/dirtpolyblock.json",
+          "src/main/resources/data/thats_just_all/loot_tables/blocks/dirtpolyblock.json"
+        ]
+      }
+    },
+    {
+      "name": "Dirtslapcraft",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirtslapcraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thats_just_all/recipes/dirtslapcraft.json"
+        ]
+      }
+    },
+    {
+      "name": "Forcedirt",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "forcedirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/thats_just_all/models/item/forcedirt.json",
+          "src/main/resources/data/thats_just_all/loot_tables/blocks/forcedirt.json",
+          "src/main/resources/assets/thats_just_all/blockstates/forcedirt.json",
+          "src/main/resources/assets/thats_just_all/models/block/forcedirt.json",
+          "src/main/resources/assets/thats_just_all/models/block/forcedirt_inventory.json",
+          "src/main/java/net/zarplay/thatsjustall/block/ForcedirtBlock.java",
+          "src/main/resources/assets/thats_just_all/models/block/forcedirt_post.json"
+        ]
+      }
+    },
+    {
+      "name": "Dirtstypen",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dirtstypen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/zarplay/thatsjustall/block/DirtstypenBlock.java",
+          "src/main/resources/assets/thats_just_all/models/block/dirtstypen_outer.json",
+          "src/main/resources/assets/thats_just_all/models/item/dirtstypen.json",
+          "src/main/resources/assets/thats_just_all/blockstates/dirtstypen.json",
+          "src/main/resources/assets/thats_just_all/models/block/dirtstypen_inner.json",
+          "src/main/resources/data/thats_just_all/loot_tables/blocks/dirtstypen.json",
+          "src/main/resources/assets/thats_just_all/models/block/dirtstypen.json"
+        ]
+      }
+    },
+    {
+      "name": "Stairscraftdirt",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stairscraftdirt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thats_just_all/recipes/stairscraftdirt.json"
+        ]
+      }
+    },
+    {
+      "name": "Building",
+      "type": "tab",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "building",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Acid",
+      "type": "fluid",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid",
+      "metadata": {
+        "files": [
+          "src/main/java/net/zarplay/thatsjustall/fluid/AcidFluid.java",
+          "src/main/java/net/zarplay/thatsjustall/block/AcidBlock.java",
+          "src/main/resources/assets/thats_just_all/models/item/acid_bucket.json",
+          "src/main/resources/assets/thats_just_all/blockstates/acid.json",
+          "src/main/resources/assets/thats_just_all/models/block/acid.json",
+          "src/main/java/net/zarplay/thatsjustall/fluid/types/AcidFluidType.java",
+          "src/main/java/net/zarplay/thatsjustall/item/AcidItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AcidDamage",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "acid_damage",
+      "metadata": {
+        "files": [
+          "src/main/java/net/zarplay/thatsjustall/procedures/AcidDamageProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RubbyPicaxe",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubby_picaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/zarplay/thatsjustall/item/RubbyPicaxeItem.java",
+          "src/main/resources/assets/thats_just_all/models/item/rubby_picaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Rubby",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubby",
+      "metadata": {
+        "files": [
+          "src/main/java/net/zarplay/thatsjustall/item/RubbyItem.java",
+          "src/main/resources/assets/thats_just_all/models/item/rubby.json"
+        ]
+      }
+    },
+    {
+      "name": "RubbyPickAxeCraft",
+      "type": "recipe",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubby_pick_axe_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thats_just_all/recipes/rubby_pick_axe_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "RubbyClaim",
+      "type": "achievement",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubby_claim",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thats_just_all/advancements/rubby_claim.json"
+        ]
+      }
+    },
+    {
+      "name": "GiveDiamondIsWither",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_diamond_is_wither",
+      "metadata": {
+        "files": [
+          "src/main/java/net/zarplay/thatsjustall/procedures/GiveDiamondIsWitherProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RubbyBlockCraft",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubby_block_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thats_just_all/recipes/rubby_block_craft.json"
+        ]
+      }
+    },
+    {
+      "name": "RubbyofBlock",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubbyof_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thats_just_all/recipes/rubbyof_block.json"
+        ]
+      }
+    },
+    {
+      "name": "OTPRAVLENVBLACKHOLE",
+      "type": "damagetype",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "otpravlenvblackhole",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thats_just_all/damage_type/otpravlenvblackhole.json"
+        ]
+      }
+    },
+    {
+      "name": "ZEMLYA",
+      "type": "painting",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zemlya",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ProfessionRuby",
+      "type": "villagerprofession",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "profession_ruby",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Stopzpblock",
+      "type": "gamerule",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stopzpblock",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      }
+    },
+    {
+      "name": "RubyFlower",
+      "type": "plant",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ruby_flower",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thats_just_all/neoforge/biome_modifier/ruby_flower_biome_modifier.json",
+          "src/main/resources/data/thats_just_all/worldgen/placed_feature/ruby_flower.json",
+          "src/main/resources/assets/thats_just_all/models/item/ruby_flower.json",
+          "src/main/java/net/zarplay/thatsjustall/block/RubyFlowerBlock.java",
+          "src/main/resources/assets/thats_just_all/blockstates/ruby_flower.json",
+          "src/main/resources/data/thats_just_all/worldgen/configured_feature/ruby_flower.json",
+          "src/main/resources/assets/thats_just_all/models/block/ruby_flower.json",
+          "src/main/resources/data/thats_just_all/loot_tables/blocks/ruby_flower.json"
+        ]
+      }
+    },
+    {
+      "name": "CreeperBoss",
+      "type": "livingentity",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creeper_boss",
+      "metadata": {
+        "files": [
+          "src/main/java/net/zarplay/thatsjustall/client/renderer/CreeperBossRenderer.java",
+          "src/main/java/net/zarplay/thatsjustall/entity/CreeperBossEntity.java",
+          "src/main/resources/assets/thats_just_all/models/item/creeper_boss_spawn_egg.json"
+        ]
+      }
+    },
+    {
+      "name": "CreeperBossPriObnovlieniiTikaSushchnosti",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creeper_boss_pri_obnovlienii_tika_sushchnosti",
+      "metadata": {
+        "files": [
+          "src/main/java/net/zarplay/thatsjustall/procedures/CreeperBossPriObnovlieniiTikaSushchnostiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Crafter",
+      "type": "block",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/zarplay/thatsjustall/block/CrafterBlock.java",
+          "src/main/resources/assets/thats_just_all/models/block/crafter.json",
+          "src/main/resources/data/thats_just_all/loot_tables/blocks/crafter.json",
+          "src/main/resources/assets/thats_just_all/models/item/crafter.json",
+          "src/main/resources/assets/thats_just_all/blockstates/crafter.json"
+        ]
+      }
+    },
+    {
+      "name": "Craftergui",
+      "type": "gui",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftergui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/zarplay/thatsjustall/network/CrafterguiSlotMessage.java",
+          "src/main/java/net/zarplay/thatsjustall/world/inventory/CrafterguiMenu.java",
+          "src/main/java/net/zarplay/thatsjustall/client/gui/CrafterguiScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "Opencraftergui",
+      "type": "procedure",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "opencraftergui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/zarplay/thatsjustall/procedures/OpencrafterguiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Maincraftproc",
+      "type": "procedure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maincraftproc",
+      "metadata": {
+        "files": [
+          "src/main/java/net/zarplay/thatsjustall/procedures/MaincraftprocProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Clearallcrafter",
+      "type": "procedure",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clearallcrafter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/zarplay/thatsjustall/procedures/ClearallcrafterProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Blueapple",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueapple",
+      "metadata": {
+        "files": [
+          "src/main/java/net/zarplay/thatsjustall/item/BlueappleItem.java",
+          "src/main/resources/assets/thats_just_all/models/item/blueapple.json"
+        ]
+      }
+    },
+    {
+      "name": "BlueapplePriZaviershieniiIspolzovaniia",
+      "type": "procedure",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueapple_pri_zaviershienii_ispolzovaniia",
+      "metadata": {
+        "files": [
+          "src/main/java/net/zarplay/thatsjustall/procedures/BlueapplePriZaviershieniiIspolzovaniiaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Blueapplecraft",
+      "type": "recipe",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueapplecraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/thats_just_all/recipes/blueapplecraft.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "Mana",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "vatsok",
+      "files": [
+        "ya-glebas-vacok-pochuvstvuj-mp3-_1_"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "bmwring",
+      "files": [
+        "boomer_phonk_prod._by_tony_motaro_tuberipper.cc_1"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~CUSTOM:RubyBlock"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:Dirtpolyblock"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:Zpblock"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:Bmwrington",
+      "~CUSTOM:Hwhehehe"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:Dirtstypen"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:Forcedirt"
+    ],
+    "BLOCKS:minecraft:replaceable": [
+      "~CUSTOM:Acid"
+    ],
+    "BLOCKS:minecraft:needs_stone_tool": [
+      "~CUSTOM:Zpblock"
+    ]
+  },
+  "language_map": {
+    "ru_ru": {
+      "item.thats_just_all.bronya_boga_leggings": "Поножи Bronya Boga",
+      "block.thats_just_all.ruby_flower": "Рубиновый одуванчик",
+      "subtitles.vatsok": "",
+      "item_group.thats_just_all.building": "Строительные блоки",
+      "item.thats_just_all.rubby_picaxe": "Рубиновая кирка",
+      "advancements.rubby_claim.descr": "Найдите рубин",
+      "item.thats_just_all.bmwrington": "Бмв рингтон",
+      "gamerule.opasnopravilo.description": "Опасность",
+      "entity.minecraft.villager.thats_just_all.profession_ruby": "Мастер рубина",
+      "key.thats_just_all.gamemode_1": "Креатив",
+      "item.thats_just_all.bronya_boga_chestplate": "Нагрудник Bronya Boga",
+      "gamerule.stopzpblock": "stopzpblock",
+      "item.thats_just_all.bronya_boga_helmet": "Шлем Bronya Boga",
+      "gamerule.stopzpblock.description": "Можно ли зп блоку распростроняться?",
+      "block.thats_just_all.crafter": "Верстак рубина",
+      "advancements.rubby_claim.title": "Соберите рубин.",
+      "block.thats_just_all.acid": "Кислота",
+      "item.thats_just_all.rubby": "Рубин",
+      "item.thats_just_all.bmwrington.desc": "ds",
+      "death.attack.otpravlenvblackhole": "%1$s УНИЧТОЖЕН В ЧЕРНОЙ ДЫРЕ",
+      "item.thats_just_all.hwhehehe.desc": "ВАЦОК ПОЧУСТВУЙ",
+      "gamerule.test.description": "НЕ ВКЛЮЧАТЬ",
+      "block.thats_just_all.dirtpolyblock": "Полублок из земли",
+      "item.thats_just_all.blueapple": "Синее Яблоко",
+      "item.thats_just_all.bronya_boga_boots": "Ботинки Bronya Boga",
+      "item.thats_just_all.acid_bucket": "Ведро с кислотой",
+      "item_group.thats_just_all.mod": "Предметы",
+      "subtitles.bmwring": "",
+      "painting.thats_just_all.zemlya.author": "ЗАРПЛЕЙ",
+      "block.thats_just_all.zpblock": "Блок зп",
+      "entity.thats_just_all.creeper_boss": "Крипер Босс",
+      "gamerule.test": "Текст",
+      "item.thats_just_all.swordofthegoood": "Меч из рубина",
+      "death.attack.otpravlenvblackhole.player": "%1$s УМЕР КОГДА ПЫТАЛСЯ УБЕЖАТЬ ОТ ЧЕРНОЙ ДЫРЫ%2$s",
+      "block.thats_just_all.dirtstypen": "Ступень из земли",
+      "item.thats_just_all.stick_of_good": "Палка Бога",
+      "block.thats_just_all.ruby_block": "Рубиновый блок",
+      "item.thats_just_all.hwhehehe": "ВАЦОК",
+      "item.thats_just_all.creeper_boss_spawn_egg": "Creeper Boss Spawn Egg",
+      "item.thats_just_all.ale": "Ключ к рубину",
+      "gamerule.opasnopravilo": "Опасность",
+      "death.attack.otpravlenvblackhole.item": "%1$s УБИТ %2$s ПРЕДМЕТОМ %3$s",
+      "fluid.thats_just_all.acid": "Кислота",
+      "block.thats_just_all.forcedirt": "Калитка из земли",
+      "painting.thats_just_all.zemlya.title": "Земля"
+    },
+    "en_us": {
+      "item.thats_just_all.bronya_boga_leggings": "Поножи Bronya Boga",
+      "block.thats_just_all.ruby_flower": "Ruby dandelion",
+      "subtitles.vatsok": "",
+      "item_group.thats_just_all.building": "Building",
+      "item.thats_just_all.rubby_picaxe": "Ruby Pickaxe",
+      "advancements.rubby_claim.descr": "Find the ruby",
+      "item.thats_just_all.bmwrington": "Bmwrington",
+      "gamerule.opasnopravilo.description": "danger",
+      "entity.minecraft.villager.thats_just_all.profession_ruby": "RubyMaster",
+      "key.thats_just_all.gamemode_1": "Gamemode 1",
+      "item.thats_just_all.bronya_boga_chestplate": "Нагрудник Bronya Boga",
+      "gamerule.stopzpblock": "stopzpblock",
+      "item.thats_just_all.bronya_boga_helmet": "Шлем Bronya Boga",
+      "gamerule.stopzpblock.description": "Можно ли зп блоку распростроняться?",
+      "block.thats_just_all.crafter": "Crafter",
+      "advancements.rubby_claim.title": "Rubby Claim",
+      "block.thats_just_all.acid": "Acid",
+      "item.thats_just_all.rubby": "Ruby",
+      "item.thats_just_all.bmwrington.desc": "ds",
+      "death.attack.otpravlenvblackhole": "%1$s УНИЧТОЖЕН В ЧЕРНОЙ ДЫРЕ",
+      "item.thats_just_all.hwhehehe.desc": "VATSOK FEEL IT",
+      "gamerule.test.description": "НЕ ВКЛЮЧАТЬ",
+      "block.thats_just_all.dirtpolyblock": "Earthen semi-block",
+      "item.thats_just_all.blueapple": "BlueApple",
+      "item.thats_just_all.bronya_boga_boots": "Ботинки Bronya Boga",
+      "item.thats_just_all.acid_bucket": "Acid Bucket",
+      "item_group.thats_just_all.mod": "Items",
+      "subtitles.bmwring": "",
+      "painting.thats_just_all.zemlya.author": "ZARPLAY",
+      "block.thats_just_all.zpblock": "Zpblock",
+      "entity.thats_just_all.creeper_boss": "Creeper Boss",
+      "gamerule.test": "Test",
+      "item.thats_just_all.swordofthegoood": "Swordofthegoood",
+      "death.attack.otpravlenvblackhole.player": "%1$s УМЕР КОГДА ПЫТАЛСЯ УБЕЖАТЬ ОТ ЧЕРНОЙ ДЫРЫ%2$s",
+      "block.thats_just_all.dirtstypen": "The Earthen step",
+      "item.thats_just_all.stick_of_good": "Stick Of Good",
+      "block.thats_just_all.ruby_block": "Ruby Block",
+      "item.thats_just_all.hwhehehe": "Vatsok",
+      "item.thats_just_all.creeper_boss_spawn_egg": "Creeper Boss Spawn Egg",
+      "item.thats_just_all.ale": "Ключ к рубину",
+      "gamerule.opasnopravilo": "danger",
+      "death.attack.otpravlenvblackhole.item": "%1$s УБИТ %2$s ПРЕДМЕТОМ %3$s",
+      "fluid.thats_just_all.acid": "Acid",
+      "block.thats_just_all.forcedirt": "Earthen fence",
+      "painting.thats_just_all.zemlya.title": "Dirt"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "thats_just_all",
+    "modName": "that\u0027s just all",
+    "version": "1.0.4",
+    "description": "This mod will add new dimension weapons, and various interesting things, such as new game rules, and new blocks)",
+    "author": "ZARPLAY",
+    "websiteURL": "https://google.com",
+    "license": "GNU General Public License version 2 (GPLv2)",
+    "serverSideOnly": false,
+    "modPicture": "dirt",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.20.4",
+    "credits": "mod by zarplay",
+    "modElementsPackage": "net.zarplay.thatsjustall"
+  },
+  "mcreatorVersion": 202400118518
+}
